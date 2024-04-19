@@ -1,0 +1,96 @@
+
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background: #000;
+  }
+  
+  .grande_div {
+    width: 300px;
+    height: 500px;
+    background: #1b1a1a;
+    margin: 80px auto;
+    position: relative;
+    padding: 50px;
+    border-radius: 15px;
+  }
+  
+  .info {
+    height: 40%;
+    /* width: 100%; */
+    /* background: #fff; */
+    position: relative;
+  }
+  
+  .imag {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 500px;
+    margin: 0 auto;
+    border: 5px solid transparent;
+    outline: 3px solid #bdeb07;
+  }
+  .image {
+    width: 100%; /* Assure que l'image prend toute la largeur du conteneur */
+    height: 100%; /* Assure que l'image prend toute la hauteur du conteneur */
+    object-fit: cover; /* Ajuste l'image pour remplir entièrement le conteneur tout en conservant son aspect d'origine */
+  }
+  
+  h3,
+  h4,
+  p {
+    text-align: center;
+    font-family: poli;
+  }
+  
+  p,
+  h3 {
+    color: #fff;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    color: #bdeb07;
+    font-size: 13px;
+    margin-top: -20px;
+  }
+  
+  .buton {
+    margin-top: 40px;
+    /* position: relative; */
+    text-align: center;
+    /* les boutons sont considéré comme des inline */
+  }
+  
+  button {
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background: #3d3d3d;
+    border: none;
+    font-family: poli;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  button:hover {
+    background: #bdeb07;
+  }
+
+  @media only screen and (max-width: 768px){
+    .grande_div{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 60%;
+    }
+    }
+
+    
+    
+   
