@@ -33,9 +33,10 @@
     outline: 3px solid #bdeb07;
   }
   .image {
-    width: 100%; /* Assure que l'image prend toute la largeur du conteneur */
-    height: 100%; /* Assure que l'image prend toute la hauteur du conteneur */
-    object-fit: cover; /* Ajuste l'image pour remplir entièrement le conteneur tout en conservant son aspect d'origine */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    background-image: url(/img/carta1.jpg);
   }
   
   h3,
